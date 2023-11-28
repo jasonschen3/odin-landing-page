@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    height: 200px;
+    width: auto;
+}
+.header, .footer {
+    background-color: #1F2937;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    text: 24px #1F2937;
+}
+
+.body {
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.part-one .text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.part-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.part-two .content {
+    display: flex;
+}
+
+.box {
+    border: 15px solid blue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+
+.part-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.part-three .quoter {
+    display: flex;
+    justify-content: start;
+    text-align: right;
+}
+
+.part-four {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.part-four .call-to-action {
+    color: white;
+}
+
