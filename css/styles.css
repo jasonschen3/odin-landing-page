@@ -8,25 +8,41 @@ img {
 }
 .header, .footer {
     background-color: #1F2937;
-
 }
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 50px;
 }
-.logo {
-    text: 24px #1F2937;
-}
-
-.body {
-    flex: 1;
-}
-
-.footer {
+.links {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 30px;
 }
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    font-weight: 900;
+}
+
+
+.body .part-one {
+    background-color: #1F2937
+}
+.body .section-one{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.body .section-two {
+    color: white;
+}
+
 
 .part-one {
     display: flex;
@@ -36,49 +52,99 @@ img {
 .part-one .text {
     display: flex;
     flex-direction: column;
-    
 }
+.part-one .section-two {
+    margin-bottom: 20px;
+}
+.part-one button {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
 
+}
 
 .part-two {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
+    gap: 30px;
 }
 
 .part-two .content {
     display: flex;
+    margin: 10px;
+    margin-bottom: 50px;
 }
 
+.part-two .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.part-two .text {
+    margin: 10px;
+}
+.part-two .top {
+    font-size: 30px;
+    font-weight: 900;
+}
 .box {
-    border: 15px solid blue;
-    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
     padding: 20px;
     border-radius: 25px;
 }
 
 
 .part-three {
+    background: grey;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 50px;
 }
 
+.part-three .quote {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-style: italic;
+}
 .part-three .quoter {
+    margin-right: 50px;
     display: flex;
-    justify-content: start;
-    text-align: right;
+    justify-content: end;
 }
 
 .part-four {
+    background-color: blue;
     display: flex;
     justify-content: space-around;
     padding: 50px;
-}
-
-.part-four .call-to-action {
+    margin: 100px 200px;
     color: white;
 }
 
+.part-four .call-to-action {
+    font-weight: 200;
+}
+
+.part-four button {
+    border: 2px solid white;
+    border-radius: 10px;
+    border-color: white;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px;
+}
